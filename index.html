@@ -1,58 +1,51 @@
-<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="kifstyle2.css">
-</head>
+    <link rel="stylesheet" href="./kifstyle2.css">
+  </head>
 
+  <body>
+    <header>
+      <img id="logo" width="48" src="./kif-logo.png" alt="logo" />
 
-<body>
-<header>
-    <img id="logo" width="48" src="kif-logo.png" alt="logo">
-    
-    <nav>
+      <nav>
         <ul id="firstlist">
-            <li class="listofhead"><a href="">Home</a></li>
-            <li class="listofhead"><a href="">About</a></li>
-            <li class="listofhead"><a href="">Contact</a></li>
+          <li class="listofhead"><a href="">Home</a></li>
+          <li class="listofhead"><a href="">About</a></li>
+          <li class="listofhead"><a href="">Contact</a></li>
         </ul>
-    </nav>
-</header>  
+      </nav>
+    </header>
 
-<div class=sidebar> 
-    <h4>Shop by Product</h4> 
-    <a href="" class="sideitems">View All</a>
-    <a href="" class="sideitems">T-shirts</a>
-    <a href="" class="sideitems">Hoodies</a>
-    <a href="" class="sideitems">Shirts</a>
-    <a href="" class="sideitems">Accessories</a>
-    <a href="" class="sideitems">Shoes</a>
+    <div class="sidebar">
+      <h4>Shop by Product</h4>
+      <a href="" class="sideitems">View All</a>
+      <a href="" class="sideitems">T-shirts</a>
+      <a href="" class="sideitems">Hoodies</a>
+      <a href="" class="sideitems">Shirts</a>
+      <a href="" class="sideitems">Accessories</a>
+      <a href="" class="sideitems">Shoes</a>
+    </div>
 
-</div>
+    <div class="productContainer"></div>
 
-<div class="productContainer">
+    <div class="cartIcon">
+        <i class="fas fa-shopping-cart"></i>
+        <span class="cartCount">0</span>
+      </div>
+      
 
-
-</div>
-
-
-
-
-<footer>
-    <img id="logo" width="30" src="kif-logo.png" alt="logo">
-    <h4>Contact</h4>
-    <p><strong>Adress:</strong></p>
-    <p><strong>Phone:</strong></p>
-    <p><strong>Hours:</strong></p>
-</footer>
-
-
-<script>src="./kif2.js"</script>
-</body>
-
-
-
+    <footer>
+      <img id="logo" width="30" src="kif-logo.png" alt="logo" />
+      <h4>Contact</h4>
+      <p><strong>Adress:</strong></p>
+      <p><strong>Phone:</strong></p>
+      <p><strong>Hours:</strong></p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.3.5/axios.min.js" integrity="sha512-nnNHpffPSgINrsR8ZAIgFUIMexORL5tPwsfktOTxVYSv+AUAILuFYWES8IHl+hhIhpFGlKvWFiz9ZEusrPcSBQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./kif2.js"></script>
+  </body>
 </html>
